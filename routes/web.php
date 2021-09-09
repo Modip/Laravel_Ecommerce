@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\livewire\HomeComponent;
+use App\Http\livewire\ShopComponent;
+use App\Http\livewire\CheckoutComponent;
+
+
 
 
 /*
@@ -19,3 +23,11 @@ use App\Http\livewire\HomeComponent;
 //     return view('welcome');
 // });
 Route::get('/', HomeComponent::class);
+Route::get('/shop', ShopComponent::class);
+Route::get('/checkout', CheckoutComponent::class);
+
+
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
