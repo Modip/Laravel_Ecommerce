@@ -7,12 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Instalation de Laravel
+## Installation de Laravel
 
 - Aller dans le site officiel de [Laravel](https://laravel.com/docs/8.x/installation). 
 - Aller à la partie installation via composer copier  la commande 
 "composer create-project laravel/laravel example-app " dans le terminal .
-- Si on a deja installer Laravel
-Pour la création d'un projet on tape la commende " laravel new nomDuProjet
+- Si on a deja installer Laravel <br>
+Pour la création d'un projet on tape la commande " laravel new nomDuProjet
 " dans le terminal.
 - Enfin on se position dans le dossier du projet et on fait la commande " php artisan serve " dans le terminal  pour lancé le projet.
