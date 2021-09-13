@@ -18,7 +18,7 @@ Pour la création d'un projet on tape la commende " laravel new nomDuProjet
 Enfin on se position dans le dossier du projet et on fait la commande " php artisan serve
 " pour lancé le projet.
 
-- Aller dans le site officiel de [larvel] (https://laravel.com/docs/8.x/installation). 
+- Aller dans le site officiel de [larvel](https://laravel.com/docs/8.x/installation). 
 - Aller à la partie installation via composer copier  la commande 
 "composer create-project laravel/laravel example-app " .
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
