@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\livewire\HomeComponent;
 use App\Http\livewire\ShopComponent;
 use App\Http\livewire\CheckoutComponent;
+use App\Http\livewire\ContactComponent;
 use App\Http\livewire\User\UserDashboardComponent;
 use App\Http\livewire\Admin\AdminDashboardComponent;
 
@@ -28,6 +29,8 @@ use App\Http\livewire\Admin\AdminDashboardComponent;
 Route::get('/', HomeComponent::class);
 Route::get('/shop', ShopComponent::class);
 Route::get('/checkout', CheckoutComponent::class);
+Route::get('/contact', ContactComponent::class);
+
 
 
 
