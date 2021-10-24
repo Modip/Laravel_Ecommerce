@@ -7,6 +7,7 @@ use App\Http\livewire\CheckoutComponent;
 use App\Http\livewire\ContactComponent;
 use App\Http\livewire\User\UserDashboardComponent;
 use App\Http\livewire\Admin\AdminDashboardComponent;
+use App\Http\livewire\CategoryComponent;
 
 
 
@@ -27,9 +28,14 @@ use App\Http\livewire\Admin\AdminDashboardComponent;
 //     return view('welcome');
 // });
 Route::get('/', HomeComponent::class);
+
 Route::get('/shop', ShopComponent::class);
+
 Route::get('/checkout', CheckoutComponent::class);
+
 Route::get('/contact', ContactComponent::class);
+
+Route::get('/product-category/{category_slug}', CategoryComponent::class)->name('product.category');
 
 
 
